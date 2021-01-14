@@ -1,0 +1,4 @@
+<h1>All Bakers</h1>
+<% @bakers.each do |baker| %>
+  <h2> <%= link_to baker.name, baker_path(baker) %></h2>
+<% end %>

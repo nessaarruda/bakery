@@ -39,6 +39,8 @@ group :development, :test do
   gem 'capybara'
   gem 'launchy'
   gem 'shoulda-matchers'
+  gem 'orderly'
+  gem 'nyan-cat-formatter'
 end
 
 group :development do

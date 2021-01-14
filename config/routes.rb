@@ -12,4 +12,11 @@ Rails.application.routes.draw do
     resources :recipes, only: [:index]
   end
 
+  resources :bakers do
+    resources :recipes
+  end
+
+  resources :bakers
+  resources :recipes
+  resources :ingredients
 end
